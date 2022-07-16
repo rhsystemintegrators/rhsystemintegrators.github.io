@@ -60,6 +60,7 @@
 .carousel-images {
     width: 100%;
     height: auto;
+    overflow: hidden;
       
   }
   
@@ -82,7 +83,8 @@
 }
 
 body {
-    background-color: #bdc4a7;
+  background-color: #3f7cac;
+  color: #DBC4a7;
 }
 
 .navbar-headers {
@@ -92,6 +94,11 @@ body {
 .card-image {
     height: 150px;
     width:auto;
+}
+
+.feature-img {
+  height: 300px;
+  width: auto;
 }
 
 .nav-link {
