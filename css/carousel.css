@@ -25,6 +25,17 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+}
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 10rem;
